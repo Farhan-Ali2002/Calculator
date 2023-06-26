@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            input[type='text'] { font-size: 70px; }
+            </style>
+    </head>
+
+
+
+    <div id="mobile">
+<div id="field-container">
+<input id="calculationfield" value="0" type="text" class="custom-cursor" readonly="true">
+</div>
+<div class="cal-buttons">
+    <table>
+        
+       
+        <tr>
+          <td><button onclick="showOnField(event)" class="round number-btn" value="7">7</button></td>
+          <td><button onclick="showOnField(event)" class="round number-btn" value="8">8</button></td>
+          <td><button onclick="showOnField(event)" class="round number-btn" value="9">9</button></td>
+          <td><button onclick="showOnField(event)" class="round" value="÷">÷</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="4">4</button></td>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="5">5</button></td>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="6">6</button></td>
+            <td><button onclick="showOnField(event)" class="round" value="+">+</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="1">1</button></td>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="2">2</button></td>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="3">3</button></td>
+            <td><button onclick="showOnField(event)" class="round" value="-">-</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="showOnField(event)" class="round number-btn" value="0">0</button></td>
+            <td><button onclick="showOnField(event)" class="round number-btn" value=".">.</button></td>
+            <td><button onclick="isEqual()" class="round" value="=">=</button></td>
+            <td><button onclick="showOnField(event)" class="round" value="x">x</button></td>
+          </tr>
+          <tr>
+            <td ><button onclick="clearField()" class="rectangle" value="0">clear</button></td>
+            
+          </tr>
+      </table>
+        
+    
+
+
+</div>
+    </div>
+
+    
+    <body>
+       
+        
+        <script src="./script.js" ></script>
+    </body>
+</html>

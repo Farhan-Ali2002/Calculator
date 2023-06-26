@@ -1,0 +1,86 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+background-color: rgb(4, 4, 95);
+
+}
+
+#mobile{
+    align-self: center;
+    height: 700px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: black;
+}
+#calculationfield{
+    background-color: black;
+    border-radius: 25px;
+    color: azure;
+    overflow: scroll;
+    width: 98%;
+    height: inherit;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.custom-cursor {
+    /* Increase the size of the cursor */
+    caret-color: white;
+    size: 200px;
+    
+    /* Change the direction to the right */
+    direction: ltr;
+    text-align: right;
+
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 8px 15px;
+  }
+  
+  button{
+    
+    
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    height: 72px;
+    width: 72px;
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 50%;
+    
+    
+  }
+  button.round{
+    background-color: #9e840f;
+  }
+  button.number-btn{
+    background-color: rgb(68, 63, 63);
+  }
+ 
+  button.rectangle{
+    background-color: rgb(33, 33, 197);
+    border-radius: 20%;
+    height: 50px;
+  }
+
+  .cal-buttons{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 12px; */
+    align-items: center;
+  }
+  #field-container{
+
+    height: 200px;
+    margin-bottom: 40px;
+    
+  }
